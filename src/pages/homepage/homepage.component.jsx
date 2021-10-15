@@ -1,10 +1,10 @@
-import './homepage.styles.scss'
+import "./homepage.styles.scss";
 
-import Directory from '../../components/directory/directory.component'
-import React from 'react'
+import Directory from "../../components/directory/directory.component";
+import React from "react";
 
 const HomePage = () => {
-    return <Directory />
-}
+    return <Directory />;
+};
 
-export default HomePage
+export default HomePage;
