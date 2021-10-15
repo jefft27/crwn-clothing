@@ -1,7 +1,7 @@
-import './menu-item.styles.scss'
+import "./menu-item.styles.scss";
 
-import React from 'react'
-import { withRouter } from 'react-router-dom'
+import React from "react";
+import { withRouter } from "react-router-dom";
 
 // use functional component b/c no need for state or lifecycle methods
 // history error: https://stackoverflow.com/questions/53712860/react-js-history-push-is-not-a-function-error-and-it-isnt-navigating-to-a-dif/53714027
@@ -29,7 +29,7 @@ const MenuItem = ({
                 <span className="subtitle">{subtitle}</span>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default withRouter(MenuItem)
+export default withRouter(MenuItem);
