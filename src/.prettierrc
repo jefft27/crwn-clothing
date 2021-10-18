@@ -1,10 +1,13 @@
 {
+    "arrowParens": "always",
     "singleQuote": false,
     "editor.formatOnSave": true,
     "proseWrap": "always",
     "tabWidth": 4,
     "useTabs": false,
     "bracketSpacing": true,
+    "bracketSameLine": true,
     "printWidth": 80,
-    "semi": true
+    "semi": true,
+    "trailingComma": "all"
 }
