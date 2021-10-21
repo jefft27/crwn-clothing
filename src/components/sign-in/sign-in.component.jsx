@@ -47,7 +47,7 @@ class SignIn extends React.Component {
                     />
                     <div className="buttons">
                         <CustomButton
-                            style={{ "margin-right": "20px" }}
+                            style={{ marginRight: "20px" }}
                             type="submit">
                             Sign in
                         </CustomButton>
